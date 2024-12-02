@@ -24,7 +24,6 @@ $usertype = isset($_SESSION['usertype']) ? $_SESSION['usertype'] : 'Guest';
                 <li><a href="manage_users.php">Manage Users</a></li>
                 <li><a href="orders.php">Orders</a></li>
                 <li><a href="reports.php">Reports</a></li>
-                <li><a href="settings.php">Settings</a></li>
             <?php elseif ($usertype === 'User'): ?>
                 <li><a href="browse_items.php">Browse Items</a></li>
                 <li><a href="help_support.php">Help/Support</a></li>
